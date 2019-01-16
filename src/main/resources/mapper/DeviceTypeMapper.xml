@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iningbo.smartcity.mapper.DeviceTypeMapper">
+  <resultMap id="BaseResultMap" type="com.iningbo.smartcity.entity.DeviceType">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="device_type_id" jdbcType="INTEGER" property="deviceTypeId" />
+    <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+    <result column="device_manufacturer_id" jdbcType="INTEGER" property="deviceManufacturerId" />
+    <result column="manufacture_name" jdbcType="VARCHAR" property="manufactureName" />
+    <result column="device_num" jdbcType="INTEGER" property="deviceNum" />
+  </resultMap>
+</mapper>

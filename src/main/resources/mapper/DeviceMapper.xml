@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iningbo.smartcity.mapper.DeviceMapper">
+    <resultMap id="BaseResultMap" type="com.iningbo.smartcity.entity.Device">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="device_id" jdbcType="INTEGER" property="deviceId"/>
+        <result column="dev_eui" jdbcType="CHAR" property="devEui"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="lat" jdbcType="VARCHAR" property="lat"/>
+        <result column="lon" jdbcType="VARCHAR" property="lon"/>
+        <result column="address" jdbcType="VARCHAR" property="address"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="device_type_id" jdbcType="INTEGER" property="deviceTypeId"/>
+        <result column="type_name" jdbcType="VARCHAR" property="typeName"/>
+        <result column="application_id" jdbcType="INTEGER" property="applicationId"/>
+        <result column="created_at" jdbcType="TIMESTAMP" property="createdAt"/>
+        <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt"/>
+    </resultMap>
+</mapper>
